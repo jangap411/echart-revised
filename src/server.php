@@ -4,7 +4,9 @@
 //connection to the database
 
 // 'mysql:host=localhost;dbname=zbnhvnthwb', 'zbnhvnthwb', 'mZYdSat7WH'
+// 'mysql:host=localhost;dbname=echart1', 'root', ''
 
+    // $db = mysqli_connect('localhost','root','','echart1');
     $db = mysqli_connect('localhost','zbnhvnthwb','mZYdSat7WH','zbnhvnthwb');
 
     //check if connected

@@ -7,6 +7,7 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="stylesheet" href="../style/style.css">
 <link rel="stylesheet" href="../style/dropdown.css">
+
 <header>
         <div class="logo-container">
             <img src="../img/emblem.svg" alt="" onclick="window.location.href = '../index.php';">

@@ -12,6 +12,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Jedidiah Angap">
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="../style/form.css">
     <title>TB eChart | Login</title>
@@ -24,11 +25,11 @@
     <header>
         <div class="logo-container">
             <img src="../img/emblem.svg" alt="" onclick="window.location.href = 'index.php';">
-            <h4><a href="./index.php">National Department of Health</a></h4>
+            <h4><a href="../index.php">National Department of Health</a></h4>
         </div>
         <nav>
             <ul class="nav-links">
-                <li><a class="nav-link" href="index.php">Home</a></li>
+                <li><a class="nav-link" href="../index.php">Home</a></li>
                 <li><a class="nav-link" href="#" onclick="alert('Please Login');">My Chart</a></li>
                 <li><a class="nav-link" href="#" onclick="alert('Please Login');">Clinic</a></li>
             </ul>
@@ -47,10 +48,6 @@
                 <form action="./server.php" class="login-form" method="POST">
                     <h1>Login</h1>
 
-                    <!--<div class="txtb">
-                        <input type="text" name="lname">
-                        <span data-placeholder="Last Name"></span>
-                    </div>-->
                     <div class="txtb">
                         <input type="text" name="number">
                         <span data-placeholder="Registration Number"></span>
@@ -59,10 +56,6 @@
                     <input type="submit" class="logbtn" value="Login" name="login-btn">
 
                     <div class="bottom-text">
-                        <!--
-                            Don't have account? <a href="#">Sign Up</a>
-                            <input type="submit" class="logbtn" value="Login" onclick="window.location.href = '../index.html';">
-                        -->
                     </div>
                 </form>
                 <script>
@@ -78,9 +71,6 @@
             </div>
         </section>
 
-        <!--
-    <img class="big-circle" src="../img/big-eclipse.svg" alt="" />
-    -->
 
         <img class="big-circle" src="../img/big-eclipse.svg" alt="" />
         <img class="medium-circle" src="../img/endtb_logo.svg" alt="" />

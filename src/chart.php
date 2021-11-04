@@ -7,18 +7,22 @@
 require_once('server.php');
 //require_once('login.php');
 /*
-  if(empty($_SESSION['txt'])){
-    $_SESSION['message'] = "Please Login to access you Chart details";
-    header('location: login.php');
-  }
 */
+if(empty($_SESSION['id'])){
+  $_SESSION['message'] = "Please Login to access you Chart details";
+  header('location: login.php');
+}
+$id = $_SESSION['id'];
 
-  $id = $_SESSION['id'];
 
 ?>
 <!DOCTYPE html>
 <html>
  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Jedidiah Angap">
   <title>TB eChart | Patient Chart</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.css" />
@@ -141,29 +145,7 @@ require_once('server.php');
   </script>
  </head>
  <body>
-<!--<header>
-    <div class="logo-container">
-        <img src="../img/emblem.svg" alt="" onclick="window.location.href = '../index.html';">
-        <h4><a href="../index.html">National Department of Health</a></h4>
-    </div>
-    <nav>
-        <ul class="nav-links">
-            <li><a class="nav-link" href="../index.html">Home</a></li>
-            <li><a class="nav-link" href="chart.php">My Chart</a></li>
-            <li><a class="nav-link" href="../qr/index-qr.php">Clinic</a></li>
-            <li>
-              <div class="burger">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-              </div>
-            </li>
-        </ul>
-    </nav>
-    <div class="cart">
-        <img src="../img/appbar.people.svg" alt="" onclick="alert('profile clicked')" ;>
-    </div>
-  </header>-->
+
 <?php  include 'header.php';?>
   <!--
     <h2 align="center"><a href="#">Jquery Fullcalandar Integration with PHP and Mysql</a></h2>
