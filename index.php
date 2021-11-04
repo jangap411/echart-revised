@@ -79,23 +79,10 @@
                     <button class="cta-add" onclick="window.location.href = './src/login.php';">LOGIN</button>
                 </div>
             </div>
-            <div class="cover">
-                <!--
-                    <img src="./img/emblem.svg" alt="matebook" srcset="">
-                -->
+            <div class="cover">       
                 <img src="./img/lung.png" alt="matebook" srcset="">
             </div>
         </section>
-
-        <!--
-        <div class="laptop-select">
-                <img src="./img/arrow-left.svg" alt="">
-                <img src="./img/dot.svg" alt="">
-                <img src="./img/dot-full.svg" alt="">
-                <img src="./img/dot-full.svg" alt="">
-                <img src="./img/arrow-right.svg" alt="">
-            </div>
-        -->
 
         <img class="big-circle" src="./img/big-eclipse.svg" alt="" />
         <img class="medium-circle" src="./img/mid-eclipse.svg" alt="" />
